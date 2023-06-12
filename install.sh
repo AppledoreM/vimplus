@@ -487,7 +487,7 @@ function install_vim_plugin()
 # 安装ycm插件
 function install_ycm()
 {
-    git clone https://gitee.com/chxuan/YouCompleteMe-clang.git ~/.vim/plugged/YouCompleteMe
+    git clone https://github.com/ycm-core/YouCompleteMe ~/.vim/plugged/YouCompleteMe
 
     cd ~/.vim/plugged/YouCompleteMe
     distro=`get_linux_distro`
