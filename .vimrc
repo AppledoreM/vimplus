@@ -362,3 +362,4 @@ endif
 
 
 highlight CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
+au BufWritePost *.c,*.cpp,*.h,*.cu,*.cuh silent! !ctags -R --exclude=build/ &
